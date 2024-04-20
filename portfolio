@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thushara Tammineni - Portfolio</title>
+    <style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #f4f4f4 3px solid;
+            transition: all 0.3s;
+        }
+
+        header h1 {
+            float: left;
+            display: inline;
+            margin: 0;
+        }
+
+        header nav {
+            float: right;
+            margin-top: 25px;
+        }
+
+        header nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        header nav ul li a:hover {
+            color: #f4f4f4;
+            transition: all 0.3s;
+        }
+
+        h2 {
+            border-bottom: #333 3px solid;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Thushara Tammineni</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Motivated engineering student seeking an internship to apply classroom learning in a practical setting. Proficient in C, C++, Python. Strong problem-solving and teamwork abilities demonstrated through coursework and projects. Eager to contribute to innovative projects and gain hands-on experience in Computer Science Engineering.</p>
+            <h3>Languages</h3>
+            <p>Telugu, English, Hindi</p>
+            <h3>Interests</h3>
+            <p>Painting, Badminton</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>HOSPITAL MANAGEMENT SYSTEM</h3>
+                <p>The eHospital System is an all-inclusive, integrated hospital administration system designed to satisfy the requirements of medical facilities, multispecialty clinics, hospital systems, and physicians. Built in C.</p>
+            </div>
+            <div class="project">
+                <h3>E-COMMERCE WEBSITE</h3>
+                <p>I designed and built an online store where people can find different kinds of books. Built using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>PACMAN GAME</h3>
+                <p>The objective is to consume all dots while avoiding contact with ghosts. Built using C.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <h3>Undergraduate - Btech(CSE)</h3>
+            <p>SRM University, Amaravathi, India (2022-2026) - CGPA: 8.0</p>
+            <h3>Intermediate</h3>
+            <p>Sri Chaitanya College, Eluru, India - Grade: A(MPC)</p>
+            <h3>10th (SSC)</h3>
+            <p>Sri Chaitanya School, Eluru, India - CGPA: 10/10</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: tamminenithushara@gmail.com</p>
+            <p>Phone: +91 1234567890</p>
+            <p>Location: Eluru, Andhra Pradesh</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Thushara Tammineni</p>
+        </div>
+    </footer>
+</body>
+</html>
